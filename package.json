@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "scripts": {
+  "start": "concurrently \"npm run start-react\" \"npm run start-backend\"",
+  "start-react": "cd energy-app && npm start",
+  "start-backend": "cd backend && node server.js"
+}
+
+}
